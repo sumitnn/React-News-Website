@@ -3,7 +3,7 @@ import './footer.css';
 function Footer() {
   return (
       <>
-          <footer className="bg-dark text-center text-white">
+          <footer className="bg-dark text-center text-white mt-5">
               
               <div className="container p-4 pb-0">
                   
