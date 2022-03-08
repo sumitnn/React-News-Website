@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 const Newslist = ({ value }) => {
     return (  
@@ -13,7 +11,7 @@ const Newslist = ({ value }) => {
                                     <div className="card-body">
                                         <h5 className="card-title">{ cur.title}</h5>
                                         <p className="card-text">
-                                            {cur.description}--<span className="text-warning"><Link to={cur.url} target="_blank"> Read More..</Link></span>
+                                            {cur.description}--<span className="text-warning"><a href={cur.url}> Read More..</a></span>
                                         </p>
                                     </div>
                                     <div className="card-footer">

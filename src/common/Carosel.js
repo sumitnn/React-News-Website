@@ -5,9 +5,6 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 function Carosel({data}) {
-   console.log("carosel");
-    console.log(data);
-
   return (
       <Carousel>
           {
